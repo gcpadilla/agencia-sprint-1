@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#encabezado1{
+    width: 100%;
+    height: 7vw;
+    top: 0;
+    display: flex;
+    background: #cecdcd;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#encabezado1 h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5em;
+}
+.enlinea{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+}
+#logo{
+    width: 100px;
+    height: 65px;
+}
+#desordenada {
+    display: flex;
+    list-style: none;
+}
+#desordenada li{
+    padding: 1.2vw;
+}
+#desordenada li a{
+    border: rgba(255, 255, 255, 0.418);
+    color: black;   
+    padding: 1vw;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+#desordenada li a:hover{
+    color: white;
+}
+h1{
+    font-family:'Covered By Your Grace';
+    font-size: 2.5em;
+}
+.imgcontenedor1{
+    width: 300px;
+    height: 299px;
+}
+#section1{
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.noticiaprincipal{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.noticiaprincipal a{
+    display: inline-block;
+}
+.noticiaprincipal a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.noticiaprincipal h4{
+    display: flex;
+    padding: 5px;
+    font-size:  2vw;
+    text-align: center;
+}
+#section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family:'Amatic SC', cursive;
+    font-size: 1.8em;
+}
+p{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    background:#80808040;
+    padding: 0vw;
+    margin-top: 10vw;
+    width: 100%;
+    height: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+#titulo2{
+    
+    font-family:'Amatic SC', cursive;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    margin-top: 9vw;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+#imgcontenedor2{
+    margin-left: 15vw;
+}
+.contenedor-con-img2{
+     background-image: url(https://www.felicesvacaciones.es/blog/pics/2017/06/torre-eiffel-en-verano.jpg);
+     background-size: cover;
+     margin-left: 30px;
+ }
+.contenedor-con-img2 p{
+    background-color: rgba(128, 128, 128, 0.301);
+}
+.contenedor-con-img1{
+        background-image: url(https://www.felicesvacaciones.es/blog/pics/2017/06/torre-eiffel-en-verano.jpg);
+        background-size: cover;
+}
+.contenedor-con-img1 p{
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.contenedor-3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20vw;
+    flex-wrap: wrap;
+}
+.contenedor-con-img3{
+    justify-content:start;
+}
+.imgsection3{
+    display: flex;
+    width: 10vw;
+    height: 10vw;
+}
+.footer{
+    background:#cecdcd;
+    margin-top: 8vw;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer form a{
+    margin: 1vw;
+    text-decoration: none;
+    color: white;
+}
+.esp a{
+    margin: 1vw;
+}
+.footer h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+.footer legend h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+.footer div{
+    display: flex;
+    justify-content: center;
+}
+.footer form{
+    color: rgb(0, 0, 0);
+}
+.redes-footer{
+    display: flex;
+    flex-direction: column;
+}
+.redes-footer a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 100%;
+}
+.copy{
+    height: 3vw;
+    color: burlywood;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/3584309/pexels-photo-3584309.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#encabezado1{
+    width: 100%;
+    height: 7vw;
+    top: 0;
+    display: flex;
+    background: #cecdcd;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#encabezado1 h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5em;
+}
+.enlinea{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+}
+#logo{
+    width: 100px;
+    height: 65px;
+}
+#desordenada {
+    display: flex;
+    list-style: none;
+}
+#desordenada li{
+    padding: 1.2vw;
+}
+#desordenada li a{
+    color: black;   
+    padding: 1vw;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+#desordenada li a:hover{
+    color: rgb(255, 255, 255);
+}
+.titulo2{
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 3vw;
+    font-family: 'Amatic SC', cursive;
+}
+.titulo3{
+    text-align: center;
+    background-color: rgba(22, 50, 51, 0.616);
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3.5vw;
+}
+.sectionimg1{
+    background-image: url(https://lanzateyviaja.com/wp-content/uploads/2017/11/Playa-Las-Perlas-Cancun-300x212.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionimg2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpDgMHvluFu1gjE5_NDACy21QNKDrEzVDneorssRye99r-QMJm&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionimg3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wOw91fDb_jm8jsnYFOX_m4d3I4B-1rX88geepDx0zvxrHLFA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1 div{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    align-items: flex-end;    
+}
+.section1 a{
+    text-decoration: none;
+    display: inline-block;
+}
+.section1 a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+/***************************************section2***********************************************/
+.section_2{
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section_2 div{
+    width: 450px;
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.bloke1{
+    background-image: url(https://secure.cdn1.wdpromedia.com/media/dcl_v0400/Site/DCLContent/Media/es/thumbs/2017/something-everyone-00-700x394.jpg?t=1498164362854);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloke2{
+    background-image: url(https://buenavibra.es/wp-content/uploads/2015/10/iberostar-bahia-1200_opt.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_2 h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.section_2 p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.section_2 a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+/***********************************************************SECTION 3***************************************/
+.section_3{
+    margin-top: 8vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section_3 img{
+    width: 100%;
+    height: 200px;
+}
+.section_3 h1{
+    margin: 2vw;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+}
+.section_3 p{
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.section_3 div{
+    max-width: 30%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.section_3 a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+/*************************************************************SECTION 3*********************************************/
+.footer{
+    background:#cecdcd;
+    margin-top: 8vw;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer form a{
+    margin: 1vw;
+    text-decoration: none;
+    color: white;
+}
+.esp a{
+    margin: 1vw;
+}
+.footer h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+.footer legend h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+.footer div{
+    display: flex;
+    justify-content: center;
+}
+.footer form{
+    color: rgb(0, 0, 0);
+}
+.redes-footer{
+    display: flex;
+    flex-direction: column;
+}
+.redes-footer a:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 100%;
+}
+.copy{
+    height: 3vw;
+    color: burlywood;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**********************************************************************************/
